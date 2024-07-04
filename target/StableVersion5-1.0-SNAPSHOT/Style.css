@@ -1,0 +1,52 @@
+body {
+    background-color: #F8F4E1;
+}
+
+.navigation {
+    text-decoration: none;
+    color: #5C3D2E;
+}
+
+/*Цвет ссылки при наведении*/
+.navigation:hover {
+    color: #1A1A1A;
+}
+
+/*Цвет ссылки после перехода по ней*/
+.navigation:visited {
+    color: #A67B5B;
+}
+
+/*Фото на главной стринце*/
+.main-images {
+    width: 449px;
+    height: 300px;
+    margin: 5px;
+}
+
+/*Стили логотипа*/
+.logo {
+    width: 124px;
+    height: 124px;
+    margin: 5px;
+}
+
+.heading-text {
+    color: #6F4E37;
+}
+
+/*Цвет текста формы записи*/
+.record-form {
+    color: #6F4E37;
+}
+
+/*Стили поляя input*/
+input {
+    color: #6F4E37;
+    background: #F8F4E1;
+}
+
+/*Стили поля input при взаимодействии*/
+input:focus {
+    color: #5C3D2E;
+}
