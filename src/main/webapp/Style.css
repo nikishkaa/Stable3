@@ -55,3 +55,7 @@ input {
 input:focus {
     color: #5C3D2E;
 }
+
+.form {
+    float: left;
+}

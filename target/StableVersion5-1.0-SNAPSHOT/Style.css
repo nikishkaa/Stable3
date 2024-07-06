@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-#\#test{
-    background: red;
-    height: 200px;
-    width: 50px;
-
-}
-
 body {
     background-color: #F8F4E1;
 }
@@ -61,4 +54,8 @@ input {
 /*Стили поля input при взаимодействии*/
 input:focus {
     color: #5C3D2E;
+}
+
+.form {
+    float: left;
 }

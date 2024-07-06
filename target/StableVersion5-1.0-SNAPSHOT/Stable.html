@@ -10,7 +10,6 @@
 <a name="up"></a>
 <table border="1" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-
         <!--Шапка сайта -->
         <th colspan="2" align="left" valign="top">
             <a href="Stable.html">
@@ -106,44 +105,50 @@
     <!--Низ сайта-->
     <tr>
         <td colspan="2">
-            <a href="Stable.html">
-                <img title="Главная" src="images/Stable_logo.png" alt="logo"
-                     class="logo">
-            </a>
+            <div class="form">
+                <a href="Stable.html">
+                    <img title="Главная" src="images/Stable_logo.png" alt="logo"
+                         class="logo">
+                </a>
+            </div>
 
-            <form>
-                <p class="record-form">Запись</p>
-                <label class="record-form" for="user_name">Введите имя</label>
-                <br>
-                <input type="text" placeholder="Имя" title="сюда вводить имя(для тупых)" name="user_name"
-                       id="user_name" required>
-                <br>
-                <label class="record-form" for="phone_number">Введите Номер телефона</label>
-                <br>
-                <input type="text" placeholder="+375 xx xxx xx xx" value="+375" name="phone_number" id="phone_number"
-                       maxlength="13" required>
+            <div class="form">
+                <form>
+                    <p class="record-form">Запись</p>
+                    <label class="record-form" for="user_name">Введите имя</label>
+                    <br>
+                    <input type="text" placeholder="Имя" title="сюда вводить имя(для тупых)" name="user_name"
+                           id="user_name" required>
+                    <br>
+                    <label class="record-form" for="phone_number">Введите Номер телефона</label>
+                    <br>
+                    <input type="text" placeholder="+375 xx xxx xx xx" value="+375" name="phone_number"
+                           id="phone_number"
+                           maxlength="13" required>
 
-                <br>
-                <label class="record-form" for="date">Дата</label>
-                <br>
-                <input type="date" id="date">
+                    <br>
+                    <label class="record-form" for="date">Дата</label>
+                    <br>
+                    <input type="date" id="date">
 
-                <br><br>
-                <label class="record-form">Город</label>
-                <select>
-                    <option disabled selected>-</option>
-                    <option>Минск</option>
-                    <option>Брест</option>
-                </select>
-                <br><br>
-                <button
-                        type="submit" class="record-form" type="button">Отправить
-                </button>
-            </form>
+                    <br><br>
+                    <label class="record-form">Город</label>
+                    <select>
+                        <option disabled selected>-</option>
+                        <option>Минск</option>
+                        <option>Брест</option>
+                    </select>
+                    <br><br>
+                    <button
+                            type="submit" class="record-form" type="button">Отправить
+                    </button>
+                </form>
+            </div>
+
         </td>
         <td>
             <a href="#up" title="Перейти к верху сайта" class="navigation">Вверх</a>
-          </td>
+        </td>
     </tr>
 </table>
 <a name="down"></a>
