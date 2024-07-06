@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Ga+Maamli&display=swap');
+
 body {
     background-color: #F8F4E1;
 }
 
 .navigation {
+    font-family: "Baskervville SC", serif;
     text-decoration: none;
     color: #5C3D2E;
 }
